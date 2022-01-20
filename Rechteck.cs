@@ -46,5 +46,10 @@ namespace FlaecheRechteck
             textBox3.Text = Convert.ToString(solution);
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
